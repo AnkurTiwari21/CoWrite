@@ -22,7 +22,6 @@ export const TemplatesGallery = () => {
   const [isCreating, setIsCreating] = useState(false);
 
   const handleCreate = async (title: string, initialContent: string) => {
-    console.log(initialContent)
     setIsCreating(true);
     create({
       title,

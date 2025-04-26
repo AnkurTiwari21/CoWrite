@@ -244,7 +244,6 @@ const HeadingsButton = () => {
                   .setHeading({ level: value as Level })
                   .run();
               }
-              console.log("value: ", value);
             }}
           >
             {label}
